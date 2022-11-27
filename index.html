@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Gallery</h1>
+    </header>
+    <div class="add-sec">
+        <input type="text" name="" id="url">
+       
+            <select name="" id="categories">
+                <!-- <option value="all">All</option> -->
+                <option value="puma">Puma</option>
+                <option value="nike">Nike</option>
+                <option value="addidas">Addidas</option>
+            </select>
+    
+       
+        <button>Add</button>
+
+    </div>
+
+    <section class="container">
+        <ul class="gallery">
+            <li class="filter active" data-filter ="all">All</li>
+            <li class="filter" data-filter ="puma">Puma</li>
+            <li class="filter" data-filter ="nike">Nike</li>
+            <li class="filter" data-filter ="addidas">Addidas</li>
+        </ul>
+
+
+
+        <div class="product">
+        
+        </div>
+    </section>
+
+<script src="app.js"></script>
+    
+</body>
+</html>
